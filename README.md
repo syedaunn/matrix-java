@@ -1,5 +1,5 @@
 #Class - Matrix
-#Author: Aunn Raza | BSCS2B | 01248
+##Author: Aunn Raza | BSCS2B | 01248
 
 Matrix Class provides basic matrix operations functionality that is addition, subtraction and multiplication.
 
@@ -20,9 +20,9 @@ Print Matrix takes a matrix as arguments and prints out the matrix in standard m
 Validation testing of Class Matrix was performed by JUnit Test Cases. Different test cases were developed in the JUnit Class MatrixTest.
 Set up phase of testing takes a file and number of matrices to be read from file to populate list of matrices on which test operations are to be performed.
 Following are the some test cases used to validate the correctness and error handling of the class Matrix.
-#testMatrixAddition()
+##testMatrixAddition()
 In this test case, three matrices are added which are taken from the matrix list created in the setup phases and asserts the output with the exact results.
-#testMatrixMultiplication()
+##testMatrixMultiplication()
 This test case checks the correctness of the matrix multiplication operation by taking two matrices from the matrix list, performing matrix multiplication and asserting the output from the expected output.
-#testMatrixMulThenAdd()
+##testMatrixMulThenAdd()
 This test checks for different execution path and matrix format consistency in consecutive operations. This test firstly multiples the first two matrix in the matrix list and then adds the third matrix in the list. Assertion is performed with the expected output to check the correctness of the class.
